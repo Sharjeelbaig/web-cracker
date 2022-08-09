@@ -4,11 +4,12 @@ A linux script to clone/mirror any static website with ease
 
 • Clone:
 ```
-gh repo clone Sharjeelbaig/web-cracker
+[//]: # (gh repo clone Sharjeelbaig/web-cracker)
+git clone --depth 1 https://github.com/Sharjeelbaig/web-cracker.git
 ```
 • Use:
 ```
-sh web-crackersh
+sh web-cracker.sh
 ```
 • Then it will ask you to enter url to crack
 
